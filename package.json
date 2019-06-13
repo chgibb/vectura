@@ -15,5 +15,24 @@
   "bugs": {
     "url": "https://github.com/chgibb/vectura/issues"
   },
-  "homepage": "https://github.com/chgibb/vectura#readme"
+  "homepage": "https://github.com/chgibb/vectura#readme",
+  "devDependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@types/jest": "^24.0.14",
+    "@types/material-ui": "^0.21.6",
+    "@types/node": "^12.0.8",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/parser": "^1.10.2",
+    "browserify": "^16.2.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jest": "^24.8.0",
+    "node-fetch": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.1",
+    "typestyle": "^2.0.2"
+  }
 }

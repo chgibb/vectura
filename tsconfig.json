@@ -1,0 +1,22 @@
+{
+    "compilerOptions" : 
+    {
+        "module" : "commonjs",
+        "moduleResolution": "node",
+        "target" : "es6",
+        "strict": true,
+        "noImplicitAny" : true,
+        "noImplicitReturns" : true,
+        "noImplicitThis": true,
+        "removeComments": true,
+        "sourceMap" : false,
+        "listFiles" : false,
+        "importHelpers" : true,
+        "jsx" : "react",
+        "incremental": true
+    },
+    "exclude": 
+    [
+        "node_modules"
+    ]
+}
