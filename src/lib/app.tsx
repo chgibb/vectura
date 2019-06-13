@@ -1,11 +1,13 @@
 import * as React from "react";
 
 import {AppBar, Toolbar, IconButton, InputBase} from "@material-ui/core";
-import {Menu} from "@material-ui/icons";
+import {Menu, Search} from "@material-ui/icons";
+
+import { IRoute } from './route';
 
 interface AppState
 {
-
+    routes? : Array<IRoute>;
 }
 
 export class App extends React.Component<{},AppState>
@@ -25,10 +27,14 @@ export class App extends React.Component<{},AppState>
                     <IconButton edge="start">
                         <Menu />
                     </IconButton>
+                    <div>
+                        <Search />
+                    </div>
+                    <InputBase
+                        placeholder="Find a Route"
+                    />
                 </Toolbar>
-                <InputBase
-                    placeholder="Find a Route"
-                />
+                
             </AppBar>
         );
     }
