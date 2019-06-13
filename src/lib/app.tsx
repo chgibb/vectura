@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import {AppBar, Toolbar, IconButton} from "@material-ui/core";
+import {AppBar, Toolbar, IconButton, InputBase} from "@material-ui/core";
 import {Menu} from "@material-ui/icons";
 
 interface AppState
@@ -26,7 +26,9 @@ export class App extends React.Component<{},AppState>
                         <Menu />
                     </IconButton>
                 </Toolbar>
-
+                <InputBase
+                    placeholder="Find a Route"
+                />
             </AppBar>
         );
     }
